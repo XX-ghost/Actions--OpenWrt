@@ -15,7 +15,8 @@ on:
   workflow_dispatch:
   schedule:
     - cron: 30 6 * * 5
-    inputs:
+    
+inputs:
       ssh:
         description: 'SSH connection to Actions'
         required: false
